@@ -1,0 +1,147 @@
+<!DocType HTML>
+  
+	<head>
+		<title>SignUp page</title>
+      <link rel="icon" href="img\signup.jpg">
+       <style type="text/css">
+      *
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   
+}
+body
+{
+   background-color: hsl(215, 37%, 59%);
+   background-image: url("D:\SignUp.jpg");
+   background-attachment: fixed;
+}
+.head
+{
+   margin: 10px;
+   padding: 25px;
+   text-transform: uppercase;
+   text-align: center;
+   font-family: Algerian;
+   font-size: 50px;
+   color: hsl(243, 28%, 39%) ;
+
+}
+.continer .form .input_box
+{
+   margin: 10px;
+   margin-right: 20px;
+   padding: 15px;
+}
+.continer
+{
+   border-style: 2px solid;
+   margin: 100px 500px;
+   border-radius: 10px;
+   border-color: hsl(305, 37%, 59%);
+   outline: solid;
+   outline-offset: 4px;
+   outline-color: hsl(215, 58%, 47%);
+   background-color: hsl(215, 37%, 59%);
+   box-shadow: 14px 14px 4px hsl(215, 43%, 32%);
+   width: min(100% - 2rem,500px);
+   margin-inline: auto;
+
+}
+.continer .form .input_box label
+{
+   border: 2px solid;
+   margin: 10px 15px;
+   border: hidden;
+   font-family: SegoeUI;
+   color: hsl(300, 100%, 25%);
+}
+.continer .form .input_box input
+{
+   border-style: solid;
+   margin: 2px;
+   padding: 10px;
+   margin-right: 10px;
+   border-radius: 4px;
+   border-color: hsl(307, 39%, 62%);
+}
+.continer .form .input_box .text_area
+{
+   border-style: solid;
+   padding: 10px;
+   border-radius: 4px;
+   border-color: hsl(307, 39%, 62%);
+   resize: none;
+}
+.continer .form .input_box label input .text_area
+{
+   margin: 10px;
+   padding: 5px;
+   display: flex;
+}
+.continer .form .input_box .button
+{
+   margin-left: 70px;
+   font-family: SegoeUI;
+   color: hsl(337, 48%, 52%);
+}
+p{
+   margin: 40px;
+  color: hsl(300, 100%, 25%); 
+  font-family: SegoeUI;
+}
+#file{
+   border: 2px hidden;
+   padding: 10px;
+}
+   </style>
+	</head>
+   <body>
+      	<div class="continer">
+      	<h1 class="head">&nbsp;&nbsp; &nbsp;signup</h1>
+      <div class="form">
+      <div class="input_box">
+      	<label>First Name</label>
+      	<input type="text" class="input">
+      </div>
+      <div class="input_box">
+      	<label>Last Name</label>
+      	<input type="text" class="input">
+      </div>
+      <div class="input_box">
+      	<label>E-mail Id</label>
+      	<input type="text" class="input">
+      </div>
+      <div class="input_box">
+      	<label>Password</label>
+      	<input type="password" class="input">
+      </div>
+      <div class="input_box">
+      	<label>Confirm Password</label>
+      	<input type="password" class="input">
+      </div>
+      <div class="input_box" class="radio">
+      	<label>Gender</label>&nbsp;&nbsp;&nbsp; 
+      	<input type="radio" name="gender"class="input">Male&nbsp;&nbsp;&nbsp;  
+      	<input type="radio" name="gender"class="input">Female
+      </div>
+      <div class="input_box">
+      	<label>Phone Number</label>
+      	<input type="text"class="input">
+      </div>
+      <div class="input_box">
+      	<label>Address</label>
+      	<textarea cols="30" rows="5"class="text_area"></textarea>
+      </div>
+     <p>Upload Photo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="file"type="file"> </p>
+      <div class="input_box">
+      	<div class="button">
+      	<input type="submit" name="button"value="register"class="button">
+      	<input type="reset" name="button"value="clear"class="button">
+      </div>
+  </div>
+  </div>
+  </div>
+   	  </body>
+</html>
